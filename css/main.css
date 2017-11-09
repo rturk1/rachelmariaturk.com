@@ -54,6 +54,10 @@
     text-decoration: none;
 }*/
 
+.glyphicons{
+    color: #000000;
+}
+
 footer .container{
     text-align: center;
     color: #858585;
