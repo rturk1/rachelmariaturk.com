@@ -10,9 +10,10 @@
 }
 
 .navbar li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-right: 10px;
     padding-left: 10px;
+    letter-spacing: 1px;
 }
 
 .jumbotron {
@@ -25,13 +26,13 @@
     background-size: cover;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     padding-top: 110px;
     padding-bottom: 15px;
     text-align: center;
     font-size: 40px;
     letter-spacing: 6px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
@@ -41,10 +42,10 @@
     text-align: center;
     font-size: 15px;
     letter-spacing: 1px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
-.jumbotron .container{
+.jumbotron .container {
     padding-top: 10px;
     width: 500px;
     height: 200px;
@@ -52,22 +53,26 @@
     -webkit-filter: opacity(60%);
 }
 
-#arrow{
+#arrow {
     padding-top: 30px;
     font-size: 50px;
     color: #545454;
 }
 
-.container{
+#zero{
+    height: 200px;
     text-align: center;
-    letter-spacing: 1px;
 }
 
 .container img{
     height:110px;
-    text-align: center;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
+}
+
+#aboutme{
+
 }
 
 /*.container a:link, a:visited{
@@ -75,7 +80,6 @@
     font-style: sans-serif;
     color: #545454;
 }
-
 .container a:hover{
     font-size: 10px;
     font-style: sans-serif;
