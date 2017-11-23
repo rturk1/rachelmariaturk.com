@@ -14,10 +14,10 @@ app.get('/*', (req, res) => {
 	res.send('404 Not Found');
 });
 
-app.listen(3000, (err) => {
+app.listen(3022, (err) => {
 	if (err) {
 		console.log('Oops, couldn\'t start this bitch.');
 	} else {
-		console.log('Start server on port 3000.');
+		console.log('Start server on port 3022.');
 	}
 });
