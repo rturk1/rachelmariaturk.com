@@ -1,3 +1,13 @@
+body {
+  opacity: 1;
+  transition: 0.9s opacity;
+}
+
+body.fade {
+    opacity: 0;
+    transition: none;
+}
+
 .navbar {
     background-color:rgba(255,255,255,0.55)!important;
     text-align: center;    
