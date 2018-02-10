@@ -1,68 +1,59 @@
+<!DOCTYPE html>
 <html>
-    <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/d3d0ef8610.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-    <title>Rachel Turk</title>
-    </head>
+<head>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     
-    <body>
-
-      <!--Nav Bar-->  
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span> 
-            </button>
-            <a class="navbar-brand" href="#" id="logo"></a>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <li><a href="/about-me">about me</a></li>
-              <li><a href="#">work</a></li>
-              <li><a href="#">school</a></li>
-              <li><a href="#">contact</a></li>
-            </ul>
-          </div>
+    <script src="JS/main.js"></script>
+	<title>Rachel Turk</title>
+</head>
+<body>
+    <!--NAV-->
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#body">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT ME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SCHOOL</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">PROJECTS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT</a>
+      </li>
+      <li class="nav-item-social">
+        <a class="nav-link" href="#">
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <h1>rachel turk</h1>
         </div>
-      </nav> 
-        
-      <!--Name-->
-      <div class="main">
-        <div class="row">
-          <div class="col-md-4 col-xs-3"></div>
-          <div class="col-md-4 col-xs-6">
-            <h1>rachel <br> turk</h1>
-          </div>
-          <div class="col-md-4 col-xs-3"></div>
+        <div class="row justify-content-center">
+            <p>hello world! thanks for visiting. here <br>you will find projects, blog posts <br>and random stuff about me.</p>
         </div>
-
-
-      <a href="#aboutme"><i class="fa fa-chevron-circle-down" aria-hidden="true" id="arrow"></i></a>
-        <div class="container" id="#aboutme">
-          <div class="row">
-            <div class="col-md-1 col-sm-2 col-xs-3"></div>
-            <div class="col-md-10 col-sm-8 col-xs-6">
-            <h2>about me</h2>
-            <p>Hello! I'm Rachel, a 4th year math and computer science student at McGill University. Technology is what I love, and I strive to create unique and innovative digital experiences. I currently work at a Montreal-based startup called <a href="https://vinctus.com/">Vinctus Technologies</a>.</p>
-            <img src="css/me.jpg" style="height:200px;">
-            </div>
-            <div class="col-md-1 col-sm-2 col-xs-3"></div>
-
-            <div class="container" id="school">
-            </div>
-          
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-secondary btn-lg">me</button>
         </div>
-      </div>
-
+    </div>
+    
     </body>
 </html>
