@@ -1,3 +1,3 @@
 # Rachel's Website
 
-Hello World!
+Hello World! This is my super sick website ~
